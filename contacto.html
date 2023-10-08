@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Barber-kings Agendamiento de Citas</title>
+</head>
+<body>
+    
+    <div class="todo">
+
+        <header class="header">
+            <div class="menu margen-interno">
+                <div class="logo">
+                    <h1></h1>
+                </div>
+                <nav class="nav">
+                
+                    <a href="index.html"><i class="fa-solid fa-arrow-left"></i>Volver<span class="off"></span></a>
+                    <a href="#"><i class="fa-regular fa-handshake"></i>Servicios<span class="off"></span></a>
+                    
+                    <a href=""><i class="fa-solid fa-wifi"></i>Redes<span class="off"></span></a>
+                </nav>
+                
+                    
+            </div>
+            <div class="texto margen-interno">
+            
+            </div>
+        </header>
+
+        <main>
+                <form >
+                    <label for="nombre"> Nombre y Apellido.</label>
+                    <input type="text" id="nombre" class="input-padron" required>
+        
+                    <label for="correo">Correo Electronico.</label>
+                    <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+        
+                    <label for="telefono">Numero Celular.</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXXXXXXXX">
+
+                    <label for="mensaje">Indique que dia y hora desea ser atendido.</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="input-padron" required placeholder="ejm(lunes 05h pm)"></textarea>
+        
+                    <label for="mensaje">Indique que tipo de servicios quiere tomar.</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="input-padron" required placeholder="ejm(cejas+peluqueado+afeitadofacial)"></textarea>
+        
+            <fieldset>
+                <legend>¿Como le gustaria que le contactemos?</legend>
+        
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono"> Llamada telefonica</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> Mensaje por Whatsapp</label>
+                
+        
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"> Correo de Email</label>
+                
+        
+        
+            </fieldset>
+        
+            
+            </fieldset>
+        
+                
+        
+                <label class="checkbox"><input type="checkbox" checked> ¿Le gustaria recibir novadades de la Barberia?</label>
+                    
+                    <input type="submit" value="Agendar cita" class="enviar" onclick="alert('Su cita se Agendo')">
+                    
+                </form>
+        
+        
+        </main>
+        
+        <div>
+            <footer class="footer">
+            
+                <div class="redess">   
+                    <p>Redes oficiales</p>                         
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+               </div>    
+        
+            </footer>
+        
+            <footer class="footer margen-interno">
+                <img src="imagenes/logonegro.jpg">
+                <p id="copy">&copy Copyright BarberKings 2023</p>
+            </footer>
+               
+        
+        </div>
+
+    
+
+</body>
+</html>
